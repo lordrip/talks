@@ -39,19 +39,4 @@ describe('Testing TestStreamClass', () => {
     });
   });
 
-  describe('Composed streams', () => {
-    it('with marbles 😃', () => {
-      let index = 0;
-
-      testClass.getComposedStream()
-        .subscribe((value) => {
-          const expected = index === 0 ? 'hi!' : 'bye!';
-          index++;
-
-          expect(value)
-            .toEqual(expected);
-        });
-    });
-  });
-
 });
