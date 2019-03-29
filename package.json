@@ -1,0 +1,29 @@
+{
+  "name": "talk-marble-testing",
+  "version": "1.0.0",
+  "description": "Slides and notes for meetup talk about Marble Testing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordrip/talk-marble-testing.git"
+  },
+  "author": "Ricardo Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordrip/talk-marble-testing/issues"
+  },
+  "homepage": "https://github.com/lordrip/talk-marble-testing#readme",
+  "dependencies": {
+    "rxjs": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "ts-mockito": "^2.3.1",
+    "typescript": "^3.3.4000"
+  }
+}
