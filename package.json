@@ -1,0 +1,20 @@
+{
+  "name": "talks",
+  "version": "1.0.0",
+  "description": "Repo for talks for meetups and lighting talks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordrip/talks.git"
+  },
+  "author": "Ricardo M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordrip/talks/issues"
+  },
+  "homepage": "https://github.com/lordrip/talks#readme",
+  "private": true,
+  "workspaces": [
+    "rxjs-intro",
+    "rxjs-marble-testing"
+  ]
+}

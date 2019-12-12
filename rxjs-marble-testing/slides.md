@@ -2,7 +2,7 @@
 theme : "black"
 transition: "zoom"
 highlightTheme: "atom-one-dark"
-logoImg: "https://raw.githubusercontent.com/evilz/vscode-reveal/master/images/logo-v2.png"
+logoImg: "https://rxjs-dev.firebaseapp.com/generated/images/marketing/home/Rx_Logo-512-512.png"
 slideNumber: true
 ---
 
