@@ -17,5 +17,8 @@
     "rxjs-intro",
     "rxjs-marble-testing",
     "typescript-types"
-  ]
+  ],
+  "dependencies": {
+    "rxjs": "^6.5.4"
+  }
 }

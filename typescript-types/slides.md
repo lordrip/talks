@@ -273,15 +273,3 @@ document.createElement('div'); // HTMLDivElement
 --
 
 ##### Examples
-
-* [Overload](https://stackblitz.com/edit/typescript-overloads?file=01_overload_signature.ts) ⛓
-* [Overload & String Literals](https://stackblitz.com/edit/typescript-overloads?file=02_overload_string_literal.ts) ⛓
-
---
-
-##### How works the DOM Api definition
-
-<pre><code class="hljs javascript">
-createElement<K extends keyof HTMLElementTagNameMap>(tagName: K, options?: ElementCreationOptions): HTMLElementTagNameMap[K];
-
-</code></pre>
