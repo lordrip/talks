@@ -15,6 +15,7 @@
   "private": true,
   "workspaces": [
     "rxjs-intro",
-    "rxjs-marble-testing"
+    "rxjs-marble-testing",
+    "typescript-types"
   ]
 }
